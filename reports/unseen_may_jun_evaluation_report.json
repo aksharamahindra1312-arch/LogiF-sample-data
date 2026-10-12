@@ -1,0 +1,31 @@
+{
+  "dataset": "Akshare_May_Jun_Events.parquet",
+  "evaluation_timestamp": "2026-10-12T22:14:58.280603",
+  "total_snapshots": 7714,
+  "unique_consignments": 1939,
+  "classification_metrics": {
+    "accuracy": 79.26,
+    "precision": 74.32,
+    "recall": 66.04,
+    "f1": 0.6994,
+    "roc_auc": 0.8701,
+    "pr_auc": 0.8045,
+    "brier": 0.1376,
+    "confusion_matrix": [
+      [
+        4253,
+        643
+      ],
+      [
+        957,
+        1861
+      ]
+    ]
+  },
+  "confusion_matrix": {
+    "true_negative": 4253,
+    "false_positive": 643,
+    "false_negative": 957,
+    "true_positive": 1861
+  }
+}

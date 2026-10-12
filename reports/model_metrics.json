@@ -1,0 +1,37 @@
+{
+  "project": "Logi_Freight",
+  "version": "1.0.0",
+  "historical_holdout_benchmark": {
+    "evaluation_period": "May - September 2025 (Unseen Holdout Partition)",
+    "snapshot_count": 15027,
+    "unique_consignments": 3802,
+    "accuracy_pct": 95.39,
+    "roc_auc": 0.9887,
+    "pr_auc": 0.9667,
+    "f1_score": 0.8989,
+    "precision_pct": 93.19,
+    "recall_pct": 86.81,
+    "brier_score": 0.0326,
+    "eta_medae_hours": 3.29,
+    "eta_mae_hours": 7.42,
+    "p10_p90_interval_coverage_pct": 76.62,
+    "monotonicity_pct": 100.0,
+    "inference_latency_ms": 0.020
+  },
+  "external_live_test_benchmark": {
+    "dataset": "live data test- ct.csv",
+    "snapshot_count": 40,
+    "unique_consignments": 20,
+    "accuracy_pct": 92.50,
+    "consignment_accuracy_pct": 85.00,
+    "recall_pct": 100.0,
+    "precision_pct": 86.96,
+    "f1_score": 0.9302,
+    "roc_auc": 0.9700,
+    "pr_auc": 0.9526,
+    "brier_score": 0.0845,
+    "eta_medae_hours": 6.15,
+    "eta_mae_hours": 12.21,
+    "monotonicity_pct": 100.0
+  }
+}

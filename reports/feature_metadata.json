@@ -1,0 +1,17 @@
+{
+  "total_features": 41,
+  "categorical_features": [
+    "Stage", "Shipper", "BA_Name", "Vehicle_Type", "Origin_City", "Origin_State",
+    "Dest_City", "Dest_State", "Event_Source", "Eventable_Type", "Traffic_Severity",
+    "Civic_Disruption_Severity", "Journey_Stage_Group"
+  ],
+  "numeric_features": [
+    "Latitude", "Longitude", "Elapsed_Hours", "Planned_Hours", "Elapsed_Frac",
+    "Remaining_KM", "Traversed_KM", "Route_Progress_Ratio", "Required_Speed_Kmph",
+    "Effective_Speed_Kmph", "Behind_Pace", "Pings_Last_3H", "Pings_Last_6H",
+    "Telemetry_Freshness_Min", "Hour_Of_Day", "Day_Of_Week", "Month",
+    "BA_Historical_Delay_Rate", "BA_Historical_Trips", "Shipper_Historical_Delay_Rate",
+    "Corridor_Baseline_Hours", "Weather_Rain_MM", "Weather_Temp_C", "Weather_Wind_Kmph",
+    "Weather_Severe_Flag", "Weather_Fog_Flag", "Traffic_Congestion_Ratio", "Civic_Disruption_Alert"
+  ]
+}
