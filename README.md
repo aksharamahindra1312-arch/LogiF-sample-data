@@ -122,3 +122,6 @@ Logi_Freight/
 ├── examples/               # Sample JSON inputs & outputs
 └── reports/                # Model card and performance metrics
 ```
+
+
+FOR LIVE SAMPLE RUN: python scripts\predict_live.py --input "C:\Users\akshra-cont\Downloads\DOC-20260821-WA0002(in).csv" --output "lf_predictions.csv"
